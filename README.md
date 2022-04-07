@@ -43,3 +43,6 @@ module.exports = {
     }
 };
 ```
+
+- package
+*https://www.npmjs.com/package/nekos.life*
