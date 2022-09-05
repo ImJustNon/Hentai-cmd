@@ -29,7 +29,7 @@ module.exports = {
             }) 
         }
 
-        async function work() {
+        (async()=>{
             let owo = (await neko.nsfw.boobs());
             const embed = new Discord.MessageEmbed()
                 .setTitle("ภาพไม่โหลดหรอ? กดนี่สิ")
@@ -38,8 +38,7 @@ module.exports = {
                 .setColor(`#060606`)
                 .setURL(owo.url);
             message.channel.send(embed);
-        }
-        work();
+        })();
     }
 };
 ```
